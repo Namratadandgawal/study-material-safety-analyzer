@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Study Material Safety Analyzer</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <meta name="description" content="A lightweight tool for students to check if study materials and download links are safe." />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <h1>Study Material Safety Analyzer</h1>
+      <p class="sub">Quick, local checks for filenames, links and simple site reputation — made for students.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card row">
+      <div class="col">
+        <h2>1. Check a Filename / File Link</h2>
+        <label>Enter file name or download filename (example: notes_finalversion.pdf)</label>
+        <input id="filenameInput" placeholder="e.g. notes_finalversion.pdf" />
+        <button id="checkFilenameBtn" class="btn">Analyze Filename</button>
+      </div>
+      <div class="col">
+        <h2>2. Analyze a Download URL</h2>
+        <label>Enter full URL (example: http://example.com/file.pdf)</label>
+        <input id="urlInput" placeholder="https://drive.example.com/abc?redirect=..." />
+        <button id="checkUrlBtn" class="btn">Analyze URL</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Results</h2>
+      <div id="results" class="results-grid">
+        <!-- Result cards injected here -->
+      </div>
+    </section>
+
+    <section class="card tips">
+      <h2>Quick Safety Tips</h2>
+      <ul>
+        <li>Never run .exe/.msi files from unknown sources on PC.</li>
+        <li>Prefer official library/college sources or instructors for notes.</li>
+        <li>If a file asks for extra passwords, treat it as suspicious.</li>
+        <li>When in doubt, open PDFs in an isolated environment or mobile device with antivirus.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <small>Made by Labubu — beginner & student-focused security tool. Deploy on GitHub Pages.</small>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
