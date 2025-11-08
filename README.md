@@ -1,7 +1,7 @@
 # Study Material Safety Analyzer
 
 A lightweight, beginner-friendly web tool that helps students quickly analyze filenames and download links for risky or suspicious study materials (PDFs, ZIPs, notes).  
-No backend. No AI. Simple logic-based rules you can extend — perfect for a first GitHub project.
+No backend. No AI. Simple logic-based rules you can extend perfect for a first GitHub project.
 
 ## Why this project
 Students often download materials from channels and unknown sources. This tool provides fast checks:
@@ -11,7 +11,7 @@ Students often download materials from channels and unknown sources. This tool p
 - Clickbait / scammy download titles
 - Simple website reputation heuristics (local checks)
 
-All logic is in JavaScript and easy to read — great to demonstrate security thinking and clean code.
+All logic is in JavaScript and easy to read great to demonstrate security thinking and clean code.
 
 ## Features
 - Filename checker (multiple dots, suspicious keywords, extension check)
@@ -67,4 +67,4 @@ http://drive-download-free.in/redirect=book-free
 ## How to run
 1. Clone the repo:
    ```bash
-   git clone https://github.com/<namrata-dandgawal>/study-material-safety-analyzer.git
+  git clone https://github.com/Namratadandgawal/study-material-safety-analyzer.git
